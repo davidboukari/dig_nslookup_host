@@ -65,8 +65,33 @@ b.dailymotion.com.	139046	IN	A	195.8.214.2
 ...
 ```
 
+## nslookup
+* https://geek-university.com/linux/nslookup-command/
 
+```
+nslookup www.dailymotion.fr
+Server:		10.44.0.3
+Address:	10.44.0.3#53
 
+Non-authoritative answer:
+Name:	www.dailymotion.fr
+Address: 195.8.215.136
+```
+
+```
+slookup 195.8.215.136
+Server:		10.44.0.3
+Address:	10.44.0.3#53
+
+Non-authoritative answer:
+136.215.8.195.in-addr.arpa	name = www.dailymotion.com.
+
+Authoritative answers can be found from:
+215.8.195.in-addr.arpa	nameserver = a.dailymotion.com.
+215.8.195.in-addr.arpa	nameserver = b.dailymotion.com.
+a.dailymotion.com	internet address = 195.8.214.1
+b.dailymotion.com	internet address = 195.8.214.2
+```
 
 
 
