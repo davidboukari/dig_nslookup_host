@@ -13,6 +13,9 @@ host 195.8.215.136
 
 ## dig 
 ```
+#Use a specific dns server @server
+dig @ns200.anycast.me  lapetiteboutiquefrancaise.fr
+
 dig www.dailymotion.fr
 ...
 
