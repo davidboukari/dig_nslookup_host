@@ -36,6 +36,7 @@ a.dailymotion.com.	139177	IN	A	195.8.214.1
 b.dailymotion.com.	139177	IN	A	195.8.214.2
 ```
 
+# reverse dns
 ```
 dig -x 195.8.215.136
 
