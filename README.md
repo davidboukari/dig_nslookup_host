@@ -13,7 +13,9 @@ host 195.8.215.136
 
 ## dig 
 ```
-#
+# Get all record of a domain
+dig www.google.fr any
+
 dig mx www.google.fr
 
 dig txt www.google.fr
